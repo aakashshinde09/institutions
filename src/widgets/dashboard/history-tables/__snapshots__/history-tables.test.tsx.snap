@@ -1,0 +1,238 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<HistoryTables/> > Renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <style
+        data-mantine-styles="classes"
+      >
+        @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+      </style>
+      <div
+        class="m_89d60db1 mantine-Tabs-root"
+        data-orientation="horizontal"
+        data-variant="default"
+        id="mantine-pgyj5cz4h"
+        style="--tabs-radius: var(--mantine-radius-default); --tabs-color: var(--mantine-color-blue-filled);"
+      >
+        <div
+          class="container"
+        >
+          <div
+            aria-orientation="horizontal"
+            class="m_576c9d4 before:hidden gap-9 max-md:gap-4 flex-nowrap overflow-x-auto scroll m_89d33d6d mantine-Tabs-list"
+            data-orientation="horizontal"
+            data-variant="default"
+            role="tablist"
+          >
+            <button
+              aria-controls="mantine-pgyj5cz4h-panel-rewards"
+              aria-selected="true"
+              class="mantine-focus-auto m_539e827b text-2xl font-bold p-0 data-[active=true]:text-black text-black/50 border-none bg-transparent transition-colors m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+              data-active="true"
+              data-orientation="horizontal"
+              data-variant="default"
+              id="mantine-pgyj5cz4h-tab-rewards"
+              role="tab"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="mantine-Tabs-tabLabel"
+              >
+                Rewards history
+              </span>
+            </button>
+            <button
+              aria-controls="mantine-pgyj5cz4h-panel-transactions"
+              aria-selected="false"
+              class="mantine-focus-auto m_539e827b text-2xl font-bold p-0 data-[active=true]:text-black text-black/50 border-none bg-transparent transition-colors m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+              data-orientation="horizontal"
+              data-variant="default"
+              id="mantine-pgyj5cz4h-tab-transactions"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="mantine-Tabs-tabLabel"
+              >
+                Transaction history
+              </span>
+            </button>
+          </div>
+          <div
+            aria-labelledby="mantine-pgyj5cz4h-tab-rewards"
+            class="mt-8 max-md:mt-6 m_b0c91715 mantine-Tabs-panel"
+            data-orientation="horizontal"
+            id="mantine-pgyj5cz4h-panel-rewards"
+            role="tabpanel"
+          >
+            <div
+              class="tableRow flex w-full items-center justify-center"
+            >
+              Please connect your wallet
+            </div>
+          </div>
+          <div
+            aria-labelledby="mantine-pgyj5cz4h-tab-transactions"
+            class="mt-8 max-md:mt-6 m_b0c91715 mantine-Tabs-panel"
+            data-orientation="horizontal"
+            id="mantine-pgyj5cz4h-panel-transactions"
+            role="tabpanel"
+            style="display: none;"
+          >
+            <div
+              class="tableRow flex w-full items-center justify-center"
+            >
+              Please connect your wallet
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <style
+      data-mantine-styles="classes"
+    >
+      @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+    </style>
+    <div
+      class="m_89d60db1 mantine-Tabs-root"
+      data-orientation="horizontal"
+      data-variant="default"
+      id="mantine-pgyj5cz4h"
+      style="--tabs-radius: var(--mantine-radius-default); --tabs-color: var(--mantine-color-blue-filled);"
+    >
+      <div
+        class="container"
+      >
+        <div
+          aria-orientation="horizontal"
+          class="m_576c9d4 before:hidden gap-9 max-md:gap-4 flex-nowrap overflow-x-auto scroll m_89d33d6d mantine-Tabs-list"
+          data-orientation="horizontal"
+          data-variant="default"
+          role="tablist"
+        >
+          <button
+            aria-controls="mantine-pgyj5cz4h-panel-rewards"
+            aria-selected="true"
+            class="mantine-focus-auto m_539e827b text-2xl font-bold p-0 data-[active=true]:text-black text-black/50 border-none bg-transparent transition-colors m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+            data-active="true"
+            data-orientation="horizontal"
+            data-variant="default"
+            id="mantine-pgyj5cz4h-tab-rewards"
+            role="tab"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="mantine-Tabs-tabLabel"
+            >
+              Rewards history
+            </span>
+          </button>
+          <button
+            aria-controls="mantine-pgyj5cz4h-panel-transactions"
+            aria-selected="false"
+            class="mantine-focus-auto m_539e827b text-2xl font-bold p-0 data-[active=true]:text-black text-black/50 border-none bg-transparent transition-colors m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root"
+            data-orientation="horizontal"
+            data-variant="default"
+            id="mantine-pgyj5cz4h-tab-transactions"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="mantine-Tabs-tabLabel"
+            >
+              Transaction history
+            </span>
+          </button>
+        </div>
+        <div
+          aria-labelledby="mantine-pgyj5cz4h-tab-rewards"
+          class="mt-8 max-md:mt-6 m_b0c91715 mantine-Tabs-panel"
+          data-orientation="horizontal"
+          id="mantine-pgyj5cz4h-panel-rewards"
+          role="tabpanel"
+        >
+          <div
+            class="tableRow flex w-full items-center justify-center"
+          >
+            Please connect your wallet
+          </div>
+        </div>
+        <div
+          aria-labelledby="mantine-pgyj5cz4h-tab-transactions"
+          class="mt-8 max-md:mt-6 m_b0c91715 mantine-Tabs-panel"
+          data-orientation="horizontal"
+          id="mantine-pgyj5cz4h-panel-transactions"
+          role="tabpanel"
+          style="display: none;"
+        >
+          <div
+            class="tableRow flex w-full items-center justify-center"
+          >
+            Please connect your wallet
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

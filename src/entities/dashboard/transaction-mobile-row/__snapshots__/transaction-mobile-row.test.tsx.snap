@@ -1,0 +1,309 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<TransactionMobileRow/> > Renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <style
+        data-mantine-styles="classes"
+      >
+        @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+      </style>
+      <div
+        class="rounded-3xl bg-white p-4"
+      >
+        <div
+          class="flex items-center justify-between"
+        >
+          <p
+            class="text-sm text-muted"
+          >
+            03/05/2024 18:58
+          </p>
+        </div>
+        <div
+          class="mt-4 grid grid-cols-2 gap-y-4"
+        >
+          <div
+            class="truncate"
+          >
+            <p
+              class="font-semibold max-md:text-sm max-md:font-normal"
+            >
+              Transaction type
+            </p>
+            <span
+              class="mt-2 text-2xl font-bold max-md:text-base"
+            >
+              Stake
+            </span>
+          </div>
+          <div
+            class="truncate"
+          >
+            <p
+              class="font-semibold max-md:text-sm max-md:font-normal"
+            >
+              Transaction hash
+            </p>
+            <span
+              class="text-2xl font-bold max-md:text-base flex items-center mt-1 gap-1"
+            >
+              0xd92...d9549
+              <button
+                class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+                type="button"
+              />
+            </span>
+          </div>
+          <div
+            class="truncate"
+          >
+            <p
+              class="font-semibold max-md:text-sm max-md:font-normal"
+            >
+              Sender's wallet
+            </p>
+            <span
+              class="text-2xl font-bold max-md:text-base flex items-center mt-1 gap-1"
+            >
+              0xc94...37fcd
+              <button
+                class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+                type="button"
+              />
+            </span>
+          </div>
+          <div
+            class="truncate"
+          >
+            <p
+              class="font-semibold max-md:text-sm max-md:font-normal"
+            >
+              Recipient's wallet
+            </p>
+            <span
+              class="text-2xl font-bold max-md:text-base flex items-center mt-1 gap-1"
+            >
+              0xa72...45231
+              <button
+                class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+                type="button"
+              />
+            </span>
+          </div>
+          <div
+            class="truncate"
+          >
+            <p
+              class="font-semibold max-md:text-sm max-md:font-normal"
+            >
+              Amount of stETH
+            </p>
+            <span
+              class="mt-2 text-2xl font-bold max-md:text-base"
+            >
+              0.01 stETH
+            </span>
+          </div>
+          <div
+            class="truncate"
+          >
+            <p
+              class="font-semibold max-md:text-sm max-md:font-normal"
+            >
+              Network fee
+            </p>
+            <span
+              class="mt-2 text-2xl font-bold max-md:text-base"
+            >
+              0.001198 stETH
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-portal="true"
+    />
+    <div
+      data-portal="true"
+    />
+    <div
+      data-portal="true"
+    />
+  </body>,
+  "container": <div>
+    <style
+      data-mantine-styles="classes"
+    >
+      @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+    </style>
+    <div
+      class="rounded-3xl bg-white p-4"
+    >
+      <div
+        class="flex items-center justify-between"
+      >
+        <p
+          class="text-sm text-muted"
+        >
+          03/05/2024 18:58
+        </p>
+      </div>
+      <div
+        class="mt-4 grid grid-cols-2 gap-y-4"
+      >
+        <div
+          class="truncate"
+        >
+          <p
+            class="font-semibold max-md:text-sm max-md:font-normal"
+          >
+            Transaction type
+          </p>
+          <span
+            class="mt-2 text-2xl font-bold max-md:text-base"
+          >
+            Stake
+          </span>
+        </div>
+        <div
+          class="truncate"
+        >
+          <p
+            class="font-semibold max-md:text-sm max-md:font-normal"
+          >
+            Transaction hash
+          </p>
+          <span
+            class="text-2xl font-bold max-md:text-base flex items-center mt-1 gap-1"
+          >
+            0xd92...d9549
+            <button
+              class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+              type="button"
+            />
+          </span>
+        </div>
+        <div
+          class="truncate"
+        >
+          <p
+            class="font-semibold max-md:text-sm max-md:font-normal"
+          >
+            Sender's wallet
+          </p>
+          <span
+            class="text-2xl font-bold max-md:text-base flex items-center mt-1 gap-1"
+          >
+            0xc94...37fcd
+            <button
+              class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+              type="button"
+            />
+          </span>
+        </div>
+        <div
+          class="truncate"
+        >
+          <p
+            class="font-semibold max-md:text-sm max-md:font-normal"
+          >
+            Recipient's wallet
+          </p>
+          <span
+            class="text-2xl font-bold max-md:text-base flex items-center mt-1 gap-1"
+          >
+            0xa72...45231
+            <button
+              class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+              type="button"
+            />
+          </span>
+        </div>
+        <div
+          class="truncate"
+        >
+          <p
+            class="font-semibold max-md:text-sm max-md:font-normal"
+          >
+            Amount of stETH
+          </p>
+          <span
+            class="mt-2 text-2xl font-bold max-md:text-base"
+          >
+            0.01 stETH
+          </span>
+        </div>
+        <div
+          class="truncate"
+        >
+          <p
+            class="font-semibold max-md:text-sm max-md:font-normal"
+          >
+            Network fee
+          </p>
+          <span
+            class="mt-2 text-2xl font-bold max-md:text-base"
+          >
+            0.001198 stETH
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

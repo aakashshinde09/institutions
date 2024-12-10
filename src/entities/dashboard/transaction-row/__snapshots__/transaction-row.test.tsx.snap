@@ -1,0 +1,215 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<TransactionRow/> > Renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <style
+        data-mantine-styles="classes"
+      >
+        @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+      </style>
+      <tr
+        class="tableRow"
+      >
+        <td
+          class="text-muted"
+        >
+          03/05/2024 18:58
+        </td>
+        <td>
+          Stake
+        </td>
+        <td>
+          <div
+            class="flex items-center gap-1"
+          >
+            <span>
+              0xc94...37fcd
+            </span>
+            <button
+              class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+              type="button"
+            />
+          </div>
+        </td>
+        <td>
+          <div
+            class="flex items-center gap-1"
+          >
+            <span>
+              0xa72...45231
+            </span>
+            <button
+              class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+              type="button"
+            />
+          </div>
+        </td>
+        <td
+          title="0.01 stETH"
+        >
+          0.01
+           stETH
+        </td>
+        <td
+          title="0.001197551826812835 stETH"
+        >
+          0.001198
+           stETH
+        </td>
+        <td>
+          <div
+            class="flex items-center gap-1"
+          >
+            <a
+              href="https://holesky.etherscan.io/tx/0xd92fe71e6167532f61ccc4a6c5b49acbe02d818840b22736dec66ec4d8dd9549"
+              target="_blank"
+            >
+              0xd92...d9549
+            </a>
+            <button
+              class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+              type="button"
+            />
+          </div>
+        </td>
+      </tr>
+    </div>
+    <div
+      data-portal="true"
+    />
+    <div
+      data-portal="true"
+    />
+    <div
+      data-portal="true"
+    />
+  </body>,
+  "container": <div>
+    <style
+      data-mantine-styles="classes"
+    >
+      @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+    </style>
+    <tr
+      class="tableRow"
+    >
+      <td
+        class="text-muted"
+      >
+        03/05/2024 18:58
+      </td>
+      <td>
+        Stake
+      </td>
+      <td>
+        <div
+          class="flex items-center gap-1"
+        >
+          <span>
+            0xc94...37fcd
+          </span>
+          <button
+            class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+            type="button"
+          />
+        </div>
+      </td>
+      <td>
+        <div
+          class="flex items-center gap-1"
+        >
+          <span>
+            0xa72...45231
+          </span>
+          <button
+            class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+            type="button"
+          />
+        </div>
+      </td>
+      <td
+        title="0.01 stETH"
+      >
+        0.01
+         stETH
+      </td>
+      <td
+        title="0.001197551826812835 stETH"
+      >
+        0.001198
+         stETH
+      </td>
+      <td>
+        <div
+          class="flex items-center gap-1"
+        >
+          <a
+            href="https://holesky.etherscan.io/tx/0xd92fe71e6167532f61ccc4a6c5b49acbe02d818840b22736dec66ec4d8dd9549"
+            target="_blank"
+          >
+            0xd92...d9549
+          </a>
+          <button
+            class="mantine-focus-auto h-6 w-6 hover:scale-105 active:scale-95 transition shrink-0 text-primary m_87cf2631 mantine-UnstyledButton-root"
+            type="button"
+          />
+        </div>
+      </td>
+    </tr>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@mantine/dates/styles.css";
+@import "@mantine/core/styles.css";
+@import "@mantine/carousel/styles.css";
+@import "./scrollbar.scss";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    font-size: 1.11vw;
+
+    @media screen and (min-width: 1440px) {
+      font-size: 16px;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  body {
+    @apply font-jakarta text-black bg-background;
+  }
+
+  button {
+    @apply border-solid;
+  }
+}
+
+@layer components {
+  .h1 {
+    @apply text-5xl font-bold;
+  }
+
+  .h2 {
+    @apply text-[2rem] leading-9 font-bold;
+  }
+
+  .h3 {
+    @apply text-2xl font-bold max-md:text-base;
+  }
+
+  .label-1 {
+    @apply text-base font-semibold;
+  }
+
+  .label-2 {
+    @apply text-sm font-semibold;
+  }
+
+  .label-3 {
+    @apply text-xs font-semibold;
+  }
+
+  .container {
+    @apply max-w-[1440px] mx-auto px-16 max-md:px-4;
+  }
+
+  wcm-modal {
+    @apply relative z-[1000];
+  }
+
+  .tableHeader {
+    @apply text-sm w-full;
+
+    & > th {
+      @apply font-normal text-start px-4;
+    }
+  }
+
+  .tableRow {
+    @apply w-full rounded-xl bg-white py-3 text-sm;
+
+    & > td {
+      @apply px-4 text-start font-semibold;
+    }
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background: transparent;
+    padding: 1rem;
+    &:hover {
+      background: transparent !important;
+    }
+  }
+}

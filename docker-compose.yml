@@ -1,0 +1,20 @@
+services:
+  frontend:
+    build:
+      context: .
+      args:
+        - build_env=${BUILD_ENV}
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend-${COMPOSE_PROJECT_NAME}.entrypoints=websecure"
+      - "traefik.http.routers.frontend-${COMPOSE_PROJECT_NAME}.rule=Host(`${DOMAIN}`) && PathPrefix(`/`)"
+      - "traefik.http.routers.frontend-${COMPOSE_PROJECT_NAME}.tls.certresolver=le"
+      - "traefik.http.routers.frontend-${COMPOSE_PROJECT_NAME}.tls=true"
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    name: traefik
+    external: true
+
